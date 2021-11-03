@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+/* ................................................ Left content ............................................. */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0px auto;
+}
+.content1{
+    width: 35%;
+    box-sizing: content-box;
+    background-color: white;
+    margin: .7% 0px;
+    box-shadow: 3px 3px 10px gray;
+}
+.content2{
+    width: 63%;
+}
+.phase{
+    min-height: 42%;
+    background-color: inherit;
+    background-color: white;
+    margin: 1% 0px;
+    box-shadow: 3px 3px 10px gray;
+}
+.image img{
+    width: 100%;
+}
+.profile-name{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+.description{
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+table{
+    margin-top: -25px;
+    width: 100%;
+    height: 140px;
+}
+.font-content1{
+    color: grey;
+    margin-left: -5px;
+    font-size: 20px;
+}
+.fontAdd{
+    display: inline; margin-left: 20px; font-size: 22px; color: rgb(83, 83, 83);
+}
+.content1 i{
+    color: #2b807a;
+    font-size: 20px;
+}
+hr{
+    border-top: 1px solid rgb(231, 231, 231) ;
+    border-left: 0px;
+    margin: 20px 0px;
+}
+.font-content1{
+    margin: 15px 0px;
+}
+.rate{
+    width: 100%;
+    height: 22px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 1.6rem;
+}
+.rate .innerRate{
+    background-color: #2b807a;
+    height: inherit;
+    border-radius: inherit;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+.r1{
+    width: 90%;
+}
+.r2{
+    width: 80%;
+}
+.r3{
+    width: 75%;
+}
+.r4{
+    width: 50%;
+}
+
+/* ................................................ Right content ............................................. */
+
+.content2 .phase{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.icon{
+    color: #2b807a;
+    margin-right: 8px;
+}
+.font1{
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+    margin: 0px 0px 25px -5px;
+}
+.date-font{
+    color: #2b807a;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.date-font span{
+    color: white;
+    background-color: #2b807a;
+    border-radius: 5px;
+    font-size:14px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.phase:last-child{
+    min-height: 13.2%;
+    background-color: #2b807a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phase:last-child .font1{
+    font-weight: bold;
+    color: white;
+}
+.phase:last-child .icon{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
